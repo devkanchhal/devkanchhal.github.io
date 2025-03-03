@@ -6,7 +6,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const linkClassNames = ({ isActive }) => 
-    isActive ? "text-blue-500 font-bold" : "text-gray-700 hover:text-blue-500 font-medium";
+    isActive ? "text-pink-500 font-bold" : "text-gray-700 hover:text-pink-500 font-medium";
 
   const handleLogoClick = () => {
     navigate('/');
@@ -20,7 +20,7 @@ const Navbar = () => {
         className="h-28 w-28 transition transform hover:scale-95 active:scale-90 cursor-pointer"
         onClick={handleLogoClick}
       />
-      <div className="flex flex-1 justify-between mx-[10vw]">
+      <div className="flex ml-auto space-x-4">
         <NavLink to="/about" className={linkClassNames}>
           About
         </NavLink>
