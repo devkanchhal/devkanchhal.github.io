@@ -3,10 +3,10 @@ import logo from "../assets/logo.png";
 
 export default function About() {
   return (
-    <section className="flex items-start justify-center min-h-screen py-10 md:py-20">
+    <section className="flex items-start justify-center pt-10 pb-20 md:pt-16">
       <div className="max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Profile Image */}
-        <div className="flex justify-center col-span-1">
+        <div className="flex justify-center col-span-1 pl-5">
           <img
             src={logo}
             alt="Profile"
@@ -15,10 +15,10 @@ export default function About() {
         </div>
 
         {/* Text Content */}
-        <div className='col-span-2'>
-          <h1 className="text-3xl font-bold text-slate-900">Hi, I’m <span className="text-primary">Dev Kanchhal</span></h1>
+        <div className='col-span-2 pr-10'>
+          <h1 className="text-3xl font-semibold text-slate-900">Hi, I’m <span className="text-primary">Dev Kanchhal</span></h1>
           <p className="text-lg text-gray-700 mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nascetur lacus, adipiscing viverra turpis vitae velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. .  Bibendum maecenas elit interdum enim amet ut ullamcorper potenti
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nascetur lacus, adipiscing viverra turpis vitae velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           <p className="text-lg text-gray-700 mt-2">
             I coded this website with React—check out the source code{" "}
