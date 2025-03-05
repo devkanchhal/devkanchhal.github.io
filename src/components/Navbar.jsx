@@ -1,44 +1,14 @@
-import React from 'react';
-import { useNavigate, NavLink } from 'react-router-dom';
-import logo from '../assets/logo.png';
+import React from 'react'
 
-const Navbar = () => {
-  const navigate = useNavigate();
-
-  const linkClassNames = ({ isActive }) => 
-    isActive ? "text-pink-500 font-bold" : "text-gray-700 hover:text-pink-500 font-medium";
-
-  const handleLogoClick = () => {
-    navigate('/');
-  };
-
-  return (
-    <nav className="h-32 fixed top-0 bg-primary w-full overflow-hidden flex items-center px-4 shadow-md">
-      <img 
-        src={logo} 
-        alt="Brand logo" 
-        className="h-28 w-28 transition transform hover:scale-95 active:scale-90 cursor-pointer"
-        onClick={handleLogoClick}
-      />
-      <div className="flex ml-auto space-x-4">
-        <NavLink to="/about" className={linkClassNames}>
-          About
-        </NavLink>
-        <NavLink to="/event-flowers" className={linkClassNames}>
-          Event Flowers
-        </NavLink>
-        <NavLink to="/floral-workshop" className={linkClassNames}>
-          Floral Workshop
-        </NavLink>
-        <NavLink to="/ikebana-flowers" className={linkClassNames}>
-          Ikebana Flowers
-        </NavLink>
-        <NavLink to="/enquire" className={linkClassNames}>
-          Enquire
-        </NavLink>
-      </div>
-    </nav>
-  );
+export default function Navbar() {
+    return (
+        <header className='flex items-center justify-between gap-4 py-7'>
+            <a href="/"><h1 className='text-lg font-medium'>DEV <span className='text-primary bold'>.K</span></h1></a>
+            <div className='gap-8 flex items-center'>
+                <a href='#home' className='text-sm text-slate-600 cursor-pointer  hover:text-primary'>HOME</a>
+                <a href='#group-projects' className='text-sm text-slate-600 cursor-pointer  hover:text-primary'>GROUP PROJECTS</a>
+                <a href='#personal-projects' className='text-sm text-slate-600 cursor-pointer  hover:text-primary'>PERSONAL PROJECTS</a>
+            </div>
+        </header>
+    )
 }
-
-export default Navbar;
