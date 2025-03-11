@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/logo.png";
+import portrait from "../assets/portrait.png";
 
 export default function About() {
   return (
@@ -8,7 +8,7 @@ export default function About() {
         {/* Profile Image */}
         <div className="flex justify-center col-span-1 pl-5">
           <img
-            src={logo}
+            src={portrait}
             alt="Profile"
             className="w-52 h-52 md:w-52 md:h-52 rounded-full object-cover"
           />
@@ -16,16 +16,17 @@ export default function About() {
 
         {/* Text Content */}
         <div className='col-span-2 pr-10'>
-          <h1 className="text-3xl font-semibold text-slate-900">Hi, I’m <span className="bg-yellow-100 hover:bg-transparent px-1 inline-block">Dev Kanchhal</span></h1>
+          <h1 className="text-3xl font-semibold text-slate-900">Hi, I’m <span className="bg-yellow-100 px-1 inline-block">Dev Kanchhal</span></h1>
           <p className="text-lg text-gray-700 mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nascetur lacus, adipiscing viverra turpis vitae velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           <p className="text-lg text-gray-700 mt-2">
             I coded this website with React and Tailwind CSS—check out the source code{" "}
             <a
-              // REPLACE WITH GITHUB LINK
-              href="https://your-source-code-link.com"
+              href="https://github.com/devkanchhal/portfolio-website"
               className="text-primary underline"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               here
             </a>

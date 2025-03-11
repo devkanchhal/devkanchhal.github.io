@@ -25,7 +25,7 @@ export default function Group() {
 
       <Card 
         image={car} 
-        subtitle="Personal Project - in progress!" 
+        subtitle="Personal Project (in progress!)" 
         title="Product Innovation Program" 
         text="How to act strategically despite limited time and budget." 
       />
