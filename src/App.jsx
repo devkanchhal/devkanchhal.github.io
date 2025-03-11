@@ -4,6 +4,7 @@ import styles from './style';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Group from './components/Group';
+import Connect from './components/Connect';
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       </div>
       
       <section id="home" className="w-full sm:w-[75vw] mx-auto">
-          <About />
+        <About />
       </section>
 
       <hr className="border-t-2 border-gray-100" />
@@ -24,8 +25,8 @@ const App = () => {
 
       <hr className="border-t-2 border-gray-100" />
 
-      <section id="connect" className="h-screen flex items-center justify-center">
-        <h2 className="text-3xl font-bold">Let's connect Section</h2>
+      <section id="connect" className="pt-24 pb-32 flex items-center justify-center">
+        <Connect /> 
       </section>
       
     </div>
