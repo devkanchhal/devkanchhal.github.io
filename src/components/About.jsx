@@ -1,5 +1,5 @@
 import React from 'react'
-import portrait from "../assets/portrait.png";
+import headshot from "../assets/headshot.png"
 
 export default function About() {
   return (
@@ -8,7 +8,7 @@ export default function About() {
         {/* Profile Image */}
         <div className="flex justify-center col-span-1 pl-5">
           <img
-            src={portrait}
+            src={headshot}
             alt="Profile"
             className="w-52 h-52 md:w-52 md:h-52 rounded-full object-cover"
           />
