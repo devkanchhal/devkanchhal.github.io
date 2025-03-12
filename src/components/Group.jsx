@@ -27,7 +27,7 @@ export default function Group() {
         image={car} 
         subtitle="Personal Project (in progress!)" 
         title="Autonomous Disinfection Robot" 
-        text="The idea behind this robot came in response to the increased sanitation demand in our post-pandemic world! In this project, I'm using a RaspberryPi with ROS2 and getting my hands dirty to make this self-mapping, mobile robot. " 
+        text="The idea behind this robot came in response to the increased sanitation demand in our post-pandemic world! In this project, I'm using a RaspberryPi with ROS2 and getting my hands dirty to make this self-mapping, mobile robot come to life! " 
       />
     </section>
   );
