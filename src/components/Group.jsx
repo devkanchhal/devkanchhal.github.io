@@ -13,21 +13,21 @@ export default function Group() {
         image={mbh}
         subtitle="Systems Engineer" 
         title="Mending Broken Hearts" 
-        text="How to act strategically despite limited time and budget. dawkjndkjwan dkwajbdjk dajwbdkjawbdaw dkajwbdkjwadb wadbkjwa dkaw d d awdadaw ad dawdwa d a daw da wd aw daw ddddawd da wdawdwd awdwadwad " 
+        text="As a part of this research at UNSW, we are dedicated to engineering the next generation of total artificial hearts! Founded in 2022, the team of is driven by a passion for innovation in cardiac technology, aiming to offer hope for those with end-stage heart failure." 
       />
 
       <Card 
         image={harbour} 
         subtitle="UI/UX Designer" 
         title="Product Innovation Program" 
-        text="How to act strategically despite limited time and budget." 
+        text="In this extracurricular program, I worked in a team to design, prototype and present our app 'Harbour' for solo travellers to Canva! The project taught me valuable lessons in user-centric design and helped develop transferable product development skills." 
       />
 
       <Card 
         image={car} 
         subtitle="Personal Project (in progress!)" 
-        title="Product Innovation Program" 
-        text="How to act strategically despite limited time and budget." 
+        title="Autonomous Disinfection Robot" 
+        text="The idea behind this robot came in response to the increased sanitation demand in our post-pandemic world! In this project, I'm using a RaspberryPi with ROS2 and getting my hands dirty to make this self-mapping, mobile robot. " 
       />
     </section>
   );

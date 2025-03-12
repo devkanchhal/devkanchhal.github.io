@@ -13,7 +13,7 @@ export default function Connect() {
       <div className="flex justify-center space-x-6 mt-6">
         <a 
           // CHANGE THIS TO MY LINKEDIN
-          href="https://www.linkedin.com/in/your-profile" 
+          href="https://www.linkedin.com/in/dev-kanchhal-4411b3356/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="flex items-center justify-center hover:scale-105 transition"

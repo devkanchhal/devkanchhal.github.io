@@ -10,7 +10,7 @@ export default function About() {
           <img
             src={headshot}
             alt="Profile"
-            className="w-60 h-60 md:w-52 md:h-52 rounded-full object-cover"
+            className="w-60 h-60 md:w-56 md:h-56 rounded-full object-cover"
           />
         </div>
 
@@ -20,7 +20,7 @@ export default function About() {
             Hi, I’m <span className="bg-yellow-100 px-1 inline-block">Dev Kanchhal</span>
           </h1>
           <p className="text-lg text-gray-700 mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nascetur lacus, adipiscing viverra turpis vitae velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            I'm a penultimate Mechatronics Engineering / Computer Science student at UNSW ⚙️  I'm passionate about everything Robotics and embedded systems, but I'm always exploring new ways to use tech to make a meaningful impact. I'm eager to learn and contribute to humanity's next major breakthrough 🚀
           </p>
           <p className="text-lg text-gray-700 mt-2">
             I coded this website with React and Tailwind CSS—check out the source code{" "}
