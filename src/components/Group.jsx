@@ -13,7 +13,7 @@ export default function Group() {
         image={mbh}
         subtitle="Systems Engineer" 
         title="Mending Broken Hearts" 
-        text="As a part of this research at UNSW, we are dedicated to engineering the next generation of total artificial hearts! Founded in 2022, the team of is driven by a passion for innovation in cardiac technology, aiming to offer hope for those with end-stage heart failure." 
+        text="As a part of this research at UNSW, we are dedicated to engineering the next generation of total artificial hearts! Founded in 2022, the team is driven by a passion for innovation in cardiac technology, aiming to offer hope for those with end-stage heart failure." 
       />
 
       <Card 

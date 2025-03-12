@@ -20,10 +20,10 @@ export default function About() {
             Hi, I’m <span className="bg-yellow-100 px-1 inline-block">Dev Kanchhal</span>
           </h1>
           <p className="text-lg text-gray-700 mt-4">
-            I'm a penultimate Mechatronics Engineering / Computer Science student at UNSW ⚙️  I'm passionate about everything Robotics and embedded systems, but I'm always exploring new ways to use tech to make a meaningful impact. I'm eager to learn and contribute to humanity's next major breakthrough 🚀
+            I'm a penultimate Mechatronics Engineering / Computer Science student at UNSW ⚙️  I'm passionate about everything Robotics and embedded systems, but I'm always exploring new ways to use tech to make a meaningful impact. I'm eager to learn and contribute to humanity's next breakthrough 🚀
           </p>
           <p className="text-lg text-gray-700 mt-2">
-            I coded this website with React and Tailwind CSS—check out the source code{" "}
+            I coded this website from scratch with React and Tailwind CSS—check out the source code{" "}
             <a
               href="https://github.com/devkanchhal/portfolio-website"
               className="text-primary underline"
