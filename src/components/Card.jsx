@@ -1,6 +1,6 @@
 export default function Card({ image, subtitle, title, text }) {
   return (
-    <div className="max-w-4xl w-[75vw] h-80 bg-white rounded-xl shadow-lg flex overflow-hidden">
+    <div className="max-w-4xl w-full sm:w-[75vw] h-80 bg-white rounded-xl shadow-lg flex sm:flex-row overflow-hidden">
       
       {/* Left side - Image */}
       <div className="w-1/2 h-full">

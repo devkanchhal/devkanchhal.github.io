@@ -9,7 +9,7 @@ import Connect from './components/Connect';
 const App = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="py-4 w-full md:w-[75vw] mx-auto px-4 max-w-[950px]">
+      <div className="py-4 w-full sm:w-[75vw] mx-auto px-4 max-w-[950px]">
         <Navbar />
       </div>
       
