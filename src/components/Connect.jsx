@@ -5,7 +5,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Connect() {
   return (
-    <div className="text-center py-10">
+    <div className="text-center sm:py-10 px-10">
       <h2 className="text-3xl font-semibold">Let's connect</h2>
       <p className="text-gray-600 mt-2">
         Get in touch for opportunities or just to say hi! <span role="img" aria-label="wave">👋</span>

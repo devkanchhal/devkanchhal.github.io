@@ -16,7 +16,7 @@ export default function About() {
 
         {/* Text Content */}
         <div className="col-span-1 md:col-span-2 text-left">
-          <h1 className="text-4xl md:text-3xl font-semibold text-slate-900">
+          <h1 className="text-3xl md:text-3xl font-semibold text-slate-900">
             Hi, I’m <span className="bg-yellow-100 px-1 inline-block">Dev Kanchhal</span>
           </h1>
           <p className="text-lg text-gray-700 mt-4">
