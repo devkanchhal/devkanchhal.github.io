@@ -25,7 +25,7 @@ const App = () => {
 
       <hr className="border-t-2 border-gray-100" />
 
-      <section id="connect" className="pt-24 pb-32 flex items-center justify-center">
+      <section id="connect" className="pt-24 pb-28 flex items-center justify-center">
         <Connect /> 
       </section>
       

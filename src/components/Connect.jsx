@@ -1,4 +1,7 @@
 import React from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Connect() {
   return (
@@ -8,18 +11,22 @@ export default function Connect() {
         Get in touch for opportunities or just to say hi! <span role="img" aria-label="wave">👋</span>
       </p>
       <div className="flex justify-center space-x-6 mt-6">
-        <div className="w-10 h-10 bg-black text-white flex items-center justify-center rounded-lg">
-          {/* Replace with LinkedIn icon */}
-          <span className="text-lg">in</span>
-        </div>
-        <div className="w-10 h-10 bg-black text-white flex items-center justify-center rounded-lg">
-          {/* Replace with Email icon */}
-          <span className="text-lg">✉</span>
-        </div>
-        <div className="w-10 h-10 bg-black text-white flex items-center justify-center rounded-lg">
-          {/* Replace with Medium icon */}
-          <span className="text-lg">M</span>
-        </div>
+        <a 
+          // CHANGE THIS TO MY LINKEDIN
+          href="https://www.linkedin.com/in/your-profile" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center justify-center hover:scale-105 transition"
+        >
+          <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
+        </a>
+
+        <a
+          href="mailto:devkanchhal@gmail.com"
+          className="flex items-center justify-center hover:scale-105 transition"
+        >
+          <FontAwesomeIcon icon={faEnvelope} size="2x" />
+        </a>
       </div>
     </div>
   )
